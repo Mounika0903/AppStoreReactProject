@@ -1,3 +1,6 @@
+
+
+
 import React from 'react';
 
 function About() {
@@ -6,7 +9,7 @@ function About() {
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div className="col-10 col-sm-8 col-lg-6">
           <img 
-            src="https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
             className="d-block mx-lg-auto img-fluid" 
             alt="Bootstrap Themes" 
             width="700" 
@@ -15,14 +18,12 @@ function About() {
           />
         </div>
         <div className="col-lg-6">
-          <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">ABC Automobiles</h1>
+          <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">App Store</h1>
           <p className="lead">
-            Quickly design and customize responsive mobile-first sites with Bootstrap, 
-            the world’s most popular front-end open source toolkit, featuring Sass variables 
-            and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+          Explore a vast selection of apps, each vetted for quality, privacy, and security. Our curated store ensures you find only the best for your digital needs. Enhance your experience with confidence and ease.
           </p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Vehicles</button>
+            <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Apps</button>
             <button type="button" className="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
           </div>
         </div>
@@ -32,16 +33,15 @@ function About() {
         <div className="col">
           <div className="card h-100">
             <img 
-              src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+              src="https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg?auto=compress&cs=tinysrgb&w=600" 
               className="card-img-top" 
               height={300} 
               alt="..." 
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Games</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional content. 
-                This content is a little bit longer.
+                Feature that enables you to experience the adventure and HD resolution games .
               </p>
             </div>
             <div className="card-footer">
@@ -52,15 +52,16 @@ function About() {
         <div className="col">
           <div className="card h-100">
             <img 
-              src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+              src="https://images.pexels.com/photos/1472887/pexels-photo-1472887.jpeg?auto=compress&cs=tinysrgb&w=600" 
               className="card-img-top" 
               height={300} 
               alt="..." 
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Fitness</h5>
               <p className="card-text">
-                This card has supporting text below as a natural lead-in to additional content.
+              A fitness app provides workout programs, diet instructions, nutrient info, and even live healthcare coaching to help users achieve their goals. Artificial intelligence and machine learning build
+               personalized training routines for its customers in these apps.
               </p>
             </div>
             <div className="card-footer">
@@ -71,16 +72,17 @@ function About() {
         <div className="col">
           <div className="card h-100">
             <img 
-              src="https://images.pexels.com/photos/100656/pexels-photo-100656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+              src="https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=600" 
               className="card-img-top" 
               height={300} 
               alt="..." 
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Stock Market</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional content. 
-                This card has even longer content than the first to show that equal height action.
+                Invest your hard earned money in stocks like equity,Intrday for a better future.
+              Stocks are shares of ownership in a public company, and the stock market is where 
+              investors connect to buy and sell investments like stocks.
               </p>
             </div>
             <div className="card-footer">

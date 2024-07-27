@@ -8,6 +8,7 @@ import Footer from "./Components/Footer";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, AuthContext } from './Context/AuthContext';
 import { useContext } from 'react';
+import ErrorBoundary from './Components/ErrorBoundary';
 
 // Lazy-loaded components
 const Home = lazy(() => import("./Components/Home"));
@@ -27,28 +28,7 @@ const ProtectedRoute = ({ role, children }) => {
   return children;
 };
 
-// Placeholder for ErrorBoundary component
-class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { hasError: false };
-  }
 
-  static getDerivedStateFromError() {
-    return { hasError: true };
-  }
-
-  componentDidCatch(error, errorInfo) {
-    console.error("Error caught in ErrorBoundary:", error, errorInfo);
-  }
-
-  render() {
-    if (this.state.hasError) {
-      return <h1>Something went wrong.</h1>;
-    }
-    return this.props.children;
-  }
-}
 
 function App() {
   return (
@@ -70,6 +50,7 @@ function App() {
               <Route path="/update/:id" element={<Update/>} />
               <Route path="/login" element={<Login />} /> 
               <Route path="/register" element={<Register />} /> 
+              
             </Routes>
           </Suspense>
         </ErrorBoundary>

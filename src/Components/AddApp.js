@@ -36,7 +36,7 @@ function AddApp(){
                     .then(response => {
                         setStatus('success');
                         resetForm();
-                        navigate('/AppList');
+                        navigate('/applicationlist');
                     })
                     .catch(error => {
                         setStatus('error');
