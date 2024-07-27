@@ -1,0 +1,114 @@
+{
+  "applications": [
+    {
+      "img": "https://images.pexels.com/photos/2036099/pexels-photo-2036099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Beauty Enhancer",
+      "description": "A beauty app with various filters.",
+      "releaseDate": "2023-05-22",
+      "version": 2.3,
+      "ratings": 4.5,
+      "genre": "Beauty",
+      "id": "2"
+    },
+    {
+      "img": "https://images.pexels.com/photos/11122540/pexels-photo-11122540.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Fashion Forward",
+      "description": "Your ultimate fashion guide.",
+      "releaseDate": "2024-03-10",
+      "version": 1.2,
+      "ratings": 4.2,
+      "genre": "Fashion",
+      "id": "3"
+    },
+    {
+      "img": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Women's Health Monitor",
+      "description": "Track and improve your health.",
+      "releaseDate": "2023-12-01",
+      "version": 3,
+      "ratings": 4.7,
+      "genre": "Women",
+      "id": "4"
+    },
+    {
+      "img": "https://images.pexels.com/photos/2827392/pexels-photo-2827392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Wellness App",
+      "description": "A comprehensive wellness tracker.",
+      "releaseDate": "2024-07-05",
+      "version": 2,
+      "ratings": 4.6,
+      "genre": "Health",
+      "id": "5"
+    },
+    {
+      "id": "9",
+      "img": "https://images.pexels.com/photos/27219380/pexels-photo-27219380/free-photo-of-dice-numbers-on-wooden-board.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Super Game",
+      "description": "It's a super game used for the super gaming",
+      "releaseDate": "2024-07-26",
+      "version": 1,
+      "ratings": 2,
+      "genre": "Gaming"
+    },
+    {
+      "id": "967a",
+      "image": "https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_640.jpg",
+      "name": "Instagram",
+      "description": "Connect people from home",
+      "release_date": "2010-12-12",
+      "version": 2.2,
+      "ratings": 4,
+      "genre": "game"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "test",
+      "password": "test123",
+      "role": "admin"
+    },
+    {
+      "id": "e1d7",
+      "username": "Mounika",
+      "password": "1234567",
+      "role": "admin"
+    },
+    {
+      "id": "ad8a",
+      "username": "Mounika",
+      "password": "123qwe",
+      "role": "admin"
+    },
+    {
+      "id": "051e",
+      "username": "test1",
+      "password": "zxcvbn",
+      "role": "user"
+    },
+    {
+      "id": "c998",
+      "username": "Mounika",
+      "password": "Mounika123",
+      "role": "admin"
+    },
+    {
+      "id": "094b",
+      "username": "Newapp",
+      "password": "Newapp123",
+      "role": "admin"
+    },
+    {
+      "id": "1bf6",
+      "username": "new12",
+      "password": "new12",
+      "role": "admin"
+    }
+  ]
+}
